@@ -1,0 +1,187 @@
+body {
+  background-color: #0730c4;
+  font-family: "aktiv-grotesk", sans-serif;
+}
+
+.nav-bar {
+  height: 10vh;
+  width: 100%;
+  background-color: #0730c4;
+  position: sticky;
+  top: 0;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 60%;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.button {
+  background-color: #0730c4;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: color 1s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #0730c4;
+}
+
+.main-content {
+  max-width: 700px;
+  margin: 0 auto;
+  height: 70vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content h1 {
+  font-size: 60px;
+}
+
+.main-content h3 {
+  text-align: center;
+  line-height: 1.8;
+  font-weight: lighter;
+}
+
+.main-button {
+  width: 230px;
+  background-color: white;
+  color: #0730c4;
+  border-radius: 50px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: 1s;
+}
+
+.main-button:hover {
+  background-color: #0730c4;
+  color: white;
+  transition: 1s;
+}
+
+.second-comp {
+  max-width: 95%;
+  margin: 0 auto;
+  height: 270vh;
+  background-color: white;
+}
+
+.second-comp-text-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.second-comp-text-1 h3 {
+  line-height: 1.8;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.second-comp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image {
+  margin: 40px;
+  padding-top: 300px;
+}
+
+.text-2 {
+  max-width: 300px;
+}
+
+.text-2 h1,
+.comp-3-text h1 {
+  font-size: 60px;
+}
+
+.text-2 h3,
+.comp-3-text h3 {
+  line-height: 1.8;
+  font-weight: lighter;
+}
+
+.comp-2-button {
+  width: 200px;
+  background-color: #38818d;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 11px;
+  transition: 0.5s;
+}
+
+.comp-2-button:hover {
+  background-color: white;
+  color: #38818d;
+}
+
+.third-comp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.comp-3-text {
+  max-width: 150px;
+}
+
+.image-3 {
+  padding-top: 200px;
+  margin: 60px;
+}
+
+.comp-3-text p {
+  line-height: 1.6;
+  font-weight: lighter;
+}
+
+.comp-3-text button {
+  width: 170px;
+  background-color: #c74970;
+  color: white;
+  border-radius: 50px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 11px;
+  transition: 0.5s;
+  line-height: 1.8;
+}
+
+.comp-3-text button:hover {
+  background-color: white;
+  color: #c74970;
+}
